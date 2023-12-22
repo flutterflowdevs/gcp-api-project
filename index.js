@@ -16,7 +16,7 @@ app.get("/open_ai",(req,res)=>{
 
     const headers = {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer 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',
+        'Authorization': 'Bearer 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',
         'Cookie': '__cf_bm=MQ8uJtnmj2bCMcVC4OHNIX9A0EZd0sw7doz4npnljrA-1703148772-1-AVFqn7PVSURSt1AdMs/8l+R94xWoRFWJjL1rKJDp3PxbnnzaFkvjwLe8UVdUrCF3ybQGmkLqCHSJIEZCF9kDj5o=; _cfuvid=yQlrYbAWzi4tBSW9LSuOW8rF7j03xyuskj0lLC2PRcM-1703148772251-0-604800000'
       };
       
@@ -48,7 +48,7 @@ app.get("/prompt/:msg",(req,res)=>{
   console.log(`Received Message ${message}`);
     const headers = {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer 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',
+        'Authorization': 'Bearer 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',
         'Cookie': '__cf_bm=MQ8uJtnmj2bCMcVC4OHNIX9A0EZd0sw7doz4npnljrA-1703148772-1-AVFqn7PVSURSt1AdMs/8l+R94xWoRFWJjL1rKJDp3PxbnnzaFkvjwLe8UVdUrCF3ybQGmkLqCHSJIEZCF9kDj5o=; _cfuvid=yQlrYbAWzi4tBSW9LSuOW8rF7j03xyuskj0lLC2PRcM-1703148772251-0-604800000'
       };
       
